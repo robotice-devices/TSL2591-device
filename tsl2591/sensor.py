@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+import logging
+
+LOG = logging.getLogger("robotice.sensor.tsl2591")
+
 def get_data(sensor):
     """
     Get the luminosity readings.
